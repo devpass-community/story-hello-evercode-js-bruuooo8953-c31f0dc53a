@@ -1,5 +1,5 @@
 function hello(str) {
-    // Add your solution here!
+    const newString = `Hello, ${str}!`
+    return newString
 };
-
 module.exports = hello;
